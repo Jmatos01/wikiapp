@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(40, 65, 136));
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+header img{
+    border-style: solid;
+    margin-bottom: 4vh;
+    min-width: 25vw;
+    max-width: 25vw;
+    min-height: 30vh;
+    max-height: 30vh;
+}
+
+.search{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.random{
+    border-top: 25px;
+    width: 50%;
+    background-color: blue; /* Green */
+    color: white;
+    border-radius: 15px;
+}
+
+ul{
+    list-style-type: circle;
+    background: linear-gradient(to right, rgba(110, 17, 17, 0), rgb(40, 65, 136));
+    padding: 20px;
+}
